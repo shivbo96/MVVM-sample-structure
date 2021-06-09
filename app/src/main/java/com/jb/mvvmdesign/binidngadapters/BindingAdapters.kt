@@ -1,4 +1,4 @@
-package com.cashloop.binidngadapters
+package com.jb.mvvmdesign.binidngadapters
 
 import android.graphics.drawable.Drawable
 import android.view.View

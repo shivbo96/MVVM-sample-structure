@@ -1,4 +1,4 @@
-package com.example.cashless.koin
+package com.jb.mvvmdesign.koin
 
 
 import com.jb.mvvmdesign.api.WebServiceRequests

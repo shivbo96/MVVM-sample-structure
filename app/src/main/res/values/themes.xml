@@ -15,12 +15,13 @@
     </style>
 
     <style name="Progress_Dialog" parent="android:Theme.Holo.Light.Dialog">
-<!--        <item name="android:fontFamily">@font/roboto</item>-->
+        <!--        <item name="android:fontFamily">@font/roboto</item>-->
         <item name="android:windowMinWidthMajor">70%</item>
         <item name="android:windowMinWidthMinor">70%</item>
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:windowBackground">@color/transparent</item>
     </style>
+
     <style name="ToolbarColoredBackArrow" parent="Theme.MVVMDesign">
         <item name="android:textColorSecondary">@color/white</item>
     </style>

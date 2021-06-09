@@ -37,7 +37,7 @@ object MyCoroutines {
             val response = asyncPost.await()
             if (response.isSuccessful) {
                 hideProgressDialog(mContext)
-                mResponse.value = response.body()!!
+                response.body()?.also { mResponse.value = it }
             } else {
                 hideProgressDialog(mContext)
                 val t = HttpException(response)
@@ -72,7 +72,7 @@ object MyCoroutines {
     }
 
 
-    fun onError(
+    private fun onError(
         throwable: Throwable,
         mContext: Context,
         mError: MutableLiveData<String>

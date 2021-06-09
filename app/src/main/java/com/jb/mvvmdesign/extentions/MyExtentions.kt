@@ -16,8 +16,8 @@ import com.jb.mvvmdesign.R
 import com.jb.mvvmdesign.api.baseModel.ErrorBean
 import com.jb.mvvmdesign.base.dialog.ProgressDialog
 import com.jb.mvvmdesign.utils.PreferenceManager
-import com.jb.shopfeur.base.callback.AlertDialogCallback
-import com.jb.shopfeur.base.callback.ListDialogCallback
+import com.jb.mvvmdesign.base.callback.AlertDialogCallback
+import com.jb.mvvmdesign.base.callback.ListDialogCallback
 import retrofit2.HttpException
 
 
